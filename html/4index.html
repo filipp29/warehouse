@@ -1,0 +1,179 @@
+<div id="wareMainBox">
+<div class="container" id="container">
+    <h1>
+        <a onclick="event.preventDefault(); showTreeExplorer(``)" href="#">Обозреватель</a>
+    </h1>
+    <div style="display: flex;">
+        
+            <div style="width: 40%">
+                <h1>
+                    ТМЦ
+                </h1>
+                <h2>
+                    Справочники
+                </h2>
+                <p>
+                    <a onclick="event.preventDefault(); showSubcountListForm('warehouse')" href="#">Склады</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showSubcountListForm('material')" href="#">Материалы</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showSubcountListForm('contractor')" href="#">Контрагенты</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showSubcountListForm('profile')" href="#">Сотрудники</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showSubcountListForm('object')" href="#">Объекты</a>
+                </p>
+                <h2>
+                    Документы
+                </h2>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('income')" href="#">Создать документ приход</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('expense')" href="#">Создать документ расход со склада</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('expenseWorker')" href="#">Создать документ расход от работника</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('transfer')" href="#">Создать документ перемещение между складами</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('toWorker')" href="#">Создать документ выдача работнику</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('fromWorker')" href="#">Создать документ прием от работника</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showRequestTableForm('fromWorker')" href="#">Создать запрос документа</a>
+                </p>
+                <h2>
+                    Отчеты
+                </h2>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('warehouse-material')" href="#">Отчет по складу</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('contractor-material')" href="#">Отчет по контрагенту</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('profile-material')" href="#">Отчет по работнику</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('material-warehouse')" href="#">Отчет по материалу на складах</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('profile-contractor')" href="#">Отчет работник - контрагент</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('warehouse-list')" href="#">Отчет список складов</a>
+                </p>
+                <h2>
+                    Журналы
+                </h2>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('income')" href="#">Журнал приход</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('expense')" href="#">Журнал расход со склада</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('expenseWorker')" href="#">Журнал расход от работника</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('transfer')" href="#">Журнал перемещение между складами</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('toWorker')" href="#">Журнал выдача работнику</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('fromWorker')" href="#">Журнал прием от работника</a>
+                </p>
+            </div>    
+            <div style="width: 40%">
+                <h1>
+                    ОС
+                </h1>
+                <h2>
+                    Справочники
+                </h2>
+                <p>
+                    <a onclick="event.preventDefault(); showSubcountListForm('asset')" href="#">ОС</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewAssetForm()" href="#">Добавить ОС</a>
+                </p>
+                <h2>
+                    Документы
+                </h2>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('asset_expense')" href="#">Создать документ расход ОС со склада</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('asset_expenseWorker')" href="#">Создать документ расход ОС от работника</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('asset_transfer')" href="#">Создать документ перемещение ОС между складами</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('asset_toWorker')" href="#">Создать документ выдача ОС работнику</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('asset_fromWorker')" href="#">Создать документ прием ОС от работника</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('asset_install')" href="#">Создать документ установка ОС на объект со склада</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showNewDocumentForm('asset_installWorker')" href="#">Создать документ установка ОС на объект от работника</a>
+                </p>
+                <h2>
+                    Отчеты
+                </h2>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('warehouse-asset')" href="#">Отчет по складу ОС</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('contractor-asset')" href="#">Отчет по контрагенту ОС</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('profile-asset')" href="#">Отчет по работнику ОС</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showReportForm('object-asset')" href="#">Отчет по ОС на объекте</a>
+                </p>
+                <h2>
+                    Журналы
+                </h2>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('asset_income')" href="#">Журнал приход ОС</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('asset_expense')" href="#">Журнал расход ОС со склада</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('asset_expenseWorker')" href="#">Журнал расход ОС от работника</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('asset_transfer')" href="#">Журнал перемещение ОС между складами</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('asset_toWorker')" href="#">Журнал выдача ОС работнику</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('asset_fromWorker')" href="#">Журнал прием ОС от работника</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('asset_install')" href="#">Журнал установка ОС на объект со склада</a>
+                </p>
+                <p>
+                    <a onclick="event.preventDefault(); showJournalForm('asset_installWorker')" href="#">Журнал установка ОС на объект от работника</a>
+                </p>
+            </div>
+        </div>
+</div>
+</div>

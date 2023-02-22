@@ -1,0 +1,120 @@
+.explorerMainBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /*border: 1px solid black;*/
+    flex-wrap:  wrap;
+}
+.explorerMainMenu{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px  solid var(--modColor_darkest);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.explorerMainMenu button{
+    width: auto;
+    margin: 0px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.explorerPath{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px  solid var(--modColor_darkest);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px 10px;
+}
+
+.treeElementBlock{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.iconBlock{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBlock:hover{
+    background-color: #FFEBCD;
+}
+
+.contentBlock.selectedTreeElement{
+    background-color: #FFDEAD;
+}
+
+.createFolderForm, .createFileForm{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+.createFolderForm>label,.createFileForm>label {
+    font-size: 22px;
+}
+
+.createFolderForm>input, .createFileForm>input{
+    width: 70%;
+    text-align: center;
+}
+
+.createFileForm .input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 25px;
+    width: 70%;
+    color: var(--modColor_darkest);
+}
+
+.createFileForm .input>.data{
+    border: 1px black solid;
+    width: 100%;
+    text-align: center;
+    color: var(--modColor_darkest);
+    padding-bottom: 2px;
+}
+
+.explorerContentBox{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 5px 0px;
+    width: 100%;
+}
+.explorerContentBox>*{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 100%;
+}
+
+.explorerMainBox .contentBlock{
+    margin: 5px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.explorerMainBox .contentBlock .iconBlock{
+    margin-right: 10px;
+}
+

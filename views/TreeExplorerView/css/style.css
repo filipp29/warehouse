@@ -1,0 +1,55 @@
+.treeMainBox, .treeMainBox *{
+    box-sizing:  border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.treeMainBox{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-wrap:  wrap;
+    border: 1px solid black;
+}
+.treeMenu{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.treeMenu>button{
+    margin-right: 20px;
+}
+
+.treePath{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.treeContainer{
+    display: flex;
+    width: 100%;
+    height: 580px;
+}
+
+.treeTableBox{
+    width: 50%;
+    height: 100%;
+    overflow-x:  auto;
+    overflow-y:  auto;
+    padding: 10px;
+}
+
+.treeInfoBlock{
+    display: flex;
+    padding: 10px;
+    width: 50%;
+    border-left: 1px solid black;
+}
+
+

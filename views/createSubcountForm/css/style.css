@@ -1,0 +1,110 @@
+.wareMainBox, .wareMainBox *{
+    box-sizing:  border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Arial";
+}
+
+.wareMainBox{
+    
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+.wareMainBox>.docHeader{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.wareMainBox>.docHeader>.docTitle{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    font-size: 26px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+}
+
+/*
+.wareMainBox>.docHeader>.headerBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.wareMainBox>.docHeader>.headerBlock>.input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20px;
+    
+}
+
+.wareMainBox>.docHeader>.headerBlock>.input>.data{
+    border: 1px black solid;
+    padding: 2px 5px;
+    height: 100%;
+    width: 200px;
+}*/
+
+
+.wareMainBox>.docHeader>.buttonBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+
+/*
+.wareMainBox>.docTable{
+    border-collapse:  collapse;
+}
+
+.wareMainBox>.docTable .input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20px;
+    
+}
+
+.wareMainBox>.docTable .data{
+    padding: 2px 5px;
+    height: 100%;
+    width: 200px;
+}
+
+.wareMainBox>.docTable td, .wareMainBox>.docTable th{
+    border: 1px #333 solid;
+}
+
+.wareMainBox>.docTable>thead{
+    background-color:  #0065b9;
+    color: #fff;
+}*/
+
+.wareMainBox>.buttonBlock{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}

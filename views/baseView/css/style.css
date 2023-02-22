@@ -1,0 +1,100 @@
+:root {
+  --modColor: #1B9CFC;
+  --modColor_light: #25CCF7;
+  --modColor_dark: #3B3B98;
+  --modColor_darkest: #182C61;
+  --modBGColor: #FCFCFC;
+  --modBGColor_light: #FEFEFE;
+}
+
+
+
+.wareMainBox, .wareMainBox *{
+    box-sizing:  border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Arial";
+}
+
+.wareMainBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px #333 solid;
+    
+}
+
+.wareMainBox>.baseHeader{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.wareMainBox>.baseHeader>.reportTitle{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    font-size: 26px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+}
+
+
+/*.wareMainBox>.baseHeader>.headerBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 20px;
+}*/
+
+.wareMainBox>.baseHeader>.buttonBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+
+/*
+.wareMainBox>.baseTable{
+    width: 100%;
+    border-collapse:  collapse;
+}
+
+.wareMainBox>.baseTable td, .wareMainBox>.baseTable th{
+    border: 1px #333 solid;
+    padding: 5px;
+    
+}
+
+.wareMainBox>.baseTable td{
+    font-size: 15px;
+    
+    
+}
+
+.wareMainBox>.baseTable>tbody  tr:nth-child(odd){
+    background-color:  #bbb;
+}
+
+.wareMainBox>.baseTable>thead{
+    background-color:  #0065b9;
+    color: #fff;
+}*/
+
+.wareMainBox>.buttonBlock{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}

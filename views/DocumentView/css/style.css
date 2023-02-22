@@ -1,0 +1,139 @@
+ .wareMainBox, .wareMainBox *{
+    box-sizing:  border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Arial";
+}
+
+ .wareMainBox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+
+
+ .wareMainBox .docHeader{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    color: var(--modColor_darkest);
+}
+
+  .docTitle{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    font-size: 26px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    color: var(--modColor_darkest);
+}
+
+
+/*.mainBox>.docHeader>.headerBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 20px;
+    color: var(--modColor_darkest);
+}*/
+
+/*.mainBox>.docHeader>.headerBlock *{
+    color: var(--modColor_darkest);
+}*/
+
+/*.mainBox>.docHeader>.headerBlock>.input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 25px;
+    color: var(--modColor_darkest);
+    
+}
+
+.mainBox>.docHeader>.headerBlock>.input>.data{
+    border: 1px black solid;
+    padding: 2px 5px;
+    height: 100%;
+    width: 200px;
+    color: var(--modColor_darkest);
+    padding-bottom: 2px;
+}*/
+
+
+ .wareMainBox>.docHeader>.buttonBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+ .wareMainBox .tableBox{
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+    width: calc(100% - 300px);
+    padding-left: 25px;
+    border-left: 1px #444 dotted;
+}
+
+/*.mainBox .docTable{
+    border-collapse:  collapse;
+    width: calc(100% - 30px);
+    margin: 0px 15px;
+}
+
+.mainBox .docTable .input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20px;
+    
+    
+}
+
+.mainBox .docTable .data{
+    padding: 2px 5px;
+    height: 100%;
+    width: 200px;
+    color: var(--modColor_darkest);
+}
+
+.mainBox .docTable td, .mainBox .docTable th{
+    border: 1px #333 solid;
+    padding: 5px;
+    
+}
+
+.mainBox .docTable td{
+    color: var(--modColor_darkest);
+}
+
+.mainBox .docTable>thead{
+    background-color:  #0065b9;
+    color: #fff;
+}*/
+
+ .wareMainBox .buttonBlock{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+

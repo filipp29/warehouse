@@ -1,0 +1,49 @@
+
+
+.createRequestHeader, .createRequestHeader *{
+    box-sizing:  border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: var(--modFont);
+    /*color: var(--modColor_darkest);*/
+}
+
+
+.createRequestHeader{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    color: var(--modColor_darkest);
+}
+
+.createRequestHeader .buttonBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.requestTableHeader{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    color: var(--modColor_darkest);
+}
+
+.requestTableHeader>.buttonBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+
+
+
+

@@ -1,0 +1,1 @@
+<div id="tableBox" class="tableBox" style="<?=isset($style) ? $style : ""?>">

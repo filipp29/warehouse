@@ -1,0 +1,52 @@
+.wareMainBox, .wareMainBox *{
+    box-sizing:  border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Arial";
+}
+
+ .wareMainBox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+
+
+ .wareMainBox .minBalanceHeader{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--modColor_darkest);
+}
+
+  .minBalanceHeaderTitle{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    font-size: 26px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    color: var(--modColor_darkest);
+}
+
+
+ .wareMainBox>.minBalanceHeader>.buttonBlock{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+
+
